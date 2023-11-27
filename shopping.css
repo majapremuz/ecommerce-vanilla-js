@@ -1,0 +1,270 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background-color: #179aca;
+}
+
+.navbar {
+	background-color: #001d3d;
+	padding: 3rem;
+	width: 100%;
+}
+
+#brand-name {
+	font-size: 5rem;
+	text-align: center;
+	font-family: "Lato";
+	color: white;
+	text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+		0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+		0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+		0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+		0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+#logo {
+	width: 20%;
+	transform: rotate(300deg);
+	fill: white;
+}
+
+.tagline {
+	font-size: 1.4rem;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+	width: 40%;
+	margin: auto;
+	padding: 1rem;
+	border-radius: 20px;
+	position: relative;
+	top: 45%;
+}
+
+.hero-div {
+	background-image: url(https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.conteiner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	font-family: "Roboto";
+}
+
+.category-description {
+	font-family: "Roboto";
+	text-align: center;
+	font-size: 1.1rem;
+	background-color: #f6f6f6;
+	width: 50%;
+	margin: auto;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.item {
+	background-color: #001d3d;
+	display: flex;
+	width: 30%;
+	margin: 2rem 1rem auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	align-self: center;
+}
+
+h3 {
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bolder;
+	font-family: "Lato";
+	color: white;
+}
+
+figure {
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.cart-item-image {
+	height: 500px;
+	width: 500px;
+}
+
+figcaption {
+	background-color: rgba(0, 0, 0, 0.514);
+	color: white;
+	font-family: "Roboto";
+}
+
+.description {
+	text-align: justify;
+	font-size: 0.8rem;
+	text-indent: 1rem;
+	line-height: 1.5;
+	width: 80%;
+	font-family: "Roboto";
+	color: white;
+}
+
+.price {
+	font-weight: 900;
+	font-size: 1.5rem;
+	text-align: center;
+	color: black;
+	background-color: #ffc300;
+	width: 30%;
+	margin: 1rem auto;
+}
+
+.special {
+	font-family: "Roboto";
+	font-weight: bolder;
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: rgb(173, 216, 230);
+	border-radius: 50%;
+	padding: 1rem;
+	position: relative;
+	right: 15vmin;
+	top: 10vmin;
+}
+
+label {
+	font-weight: bolder;
+	font-size: 1.2rem;
+	color: white;
+	font-weight: bolder;
+	margin: 0 0.5rem;
+}
+
+.label-div {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 1rem;
+}
+
+select {
+	width: 50%;
+}
+
+.addBtn {
+	background-color: rgb(253, 38, 38);
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	border: none;
+	padding: 1rem;
+	margin: 1rem;
+	cursor: pointer;
+}
+
+.addBtn:hover {
+	background-color: darkred;
+}
+
+.button-div {
+	text-align: center;
+}
+
+#cart {
+	background-color: #179aca;
+	border-radius: 10px;
+	border: none;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.cart-quantity-span {
+	background-color: rgb(190, 246, 255);
+	padding: 0.7rem;
+	position: relative;
+	bottom: 20px;
+	left: 10px;
+	border-radius: 15px;
+}
+
+#cartConteiner {
+	background-color: rgb(242, 250, 253);
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 25px 1px rgb(0, 0, 0);
+	text-align: center;
+	display: none;
+	padding: 1rem;
+}
+
+.cart-item-title {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: "Roboto";
+}
+
+.cart-item-image {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.cart-column {
+	font-weight: 900;
+}
+
+.removeBtn {
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	border: none;
+	padding: 5px;
+}
+
+.purchaseBtn {
+	background-color: #15ac04;
+	color: white;
+	cursor: pointer;
+	border: none;
+	padding: 0.5rem 2rem;
+	width: 40%;
+	border-radius: 5px;
+}
+
+.purchaseBtn:hover {
+	background-color: #55ff52;
+	color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+	.item {
+		width: 70%;
+	}
+}
